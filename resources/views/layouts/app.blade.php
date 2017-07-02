@@ -12,6 +12,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/main.css') }}" rel="stylesheet">        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div id="app">
@@ -29,6 +31,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" >UnBSnacks
+					<img src="images/unbsnackslogo.png" width="53" height="45">
                         <!--{{ config('app.name', 'Laravel') }}href="{{ url('/') }}-->
                     </a>
                 </div>
@@ -40,7 +43,7 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav main-nav  clear navbar-right ">
                         <!-- Authentication Links -->
                         @if (Auth::guest())
                             <!--<li><a href="{{ route('login') }}">Login</a></li>
