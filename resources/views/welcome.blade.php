@@ -38,16 +38,15 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav main-nav  clear navbar-right ">
                             <li><a class="navactive color_animation" href="#top">Home</a></li>
-                            <li><a class="color_animation" href="{{ url('admin/login') }}">Cadastro/Acessar</a></li>
-                            
-                            <li><a class="color_animation" href="#story">Sobre</a></li>
                             <li><a class="color_animation" href="#pricing">Preços</a></li>
                             <li><a class="color_animation" href="#beer">Banca Colina</a></li>
-                            <li><a class="color_animation" href="#bread">Café da Manhã</a></li>
+                            <li><a class="color_animation" href="#bread">Horários</a></li>
                             <li><a class="color_animation" href="#featuredru">R.U.</a></li>
-                            <li><a class="color_animation" href="#reservation">BLA </a></li>
+                            <li><a class="color_animation" href="#reservation">Opine</a></li>
                             <li><a class="color_animation" href="#contact">Contato</a></li>
-                            
+                            <li><a class="color_animation" href="#story">Sobre</a></li>
+                            <li><a class="color_animation" href="{{ url('admin/login') }}">Cadastro/Acessar</a></li>
+                            <!--
                             <?php
                             session_start();
 
@@ -60,7 +59,7 @@
                                 <li><a class="color_login" href="./panel.html">Perfil</a></li>
                             <?php
                             }
-                            ?>
+                            ?>-->
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
@@ -145,7 +144,7 @@
             <div class="follow_container">
                 <div class="col-md-6 col-md-offset-3">
                     <h2 class="top-title"> UnBSnacks </h2>
-                    <h4 class="white second-title">Encontre o melhor lanche para sua melhor hora!</h4>
+                    <h4 class="white second-title">Encontre o melhor lanche para seu melhor momento!</h4>
                     <hr>
                 </div>
             </div>
@@ -192,29 +191,29 @@
                             </ul>  @end #filter-list -->
                             <ul id="portfolio">
                                 <li class="item breakfast mix_all" style="display: inline-block;  opacity: 1;"><img src="images/food_icon01.jpg" alt="Food">
-                                    <h2 class="white">R$X,XX</h2>
+                                    <h2 class="white">R$ 3,00</h2>
                                 </li>
 
                                 <li class="item dinner special mix_all" style="display: inline-block;  opacity: 1;"><img src="images/food_icon01.jpg" alt="Food">
-                                    <h2 class="white">R$X,XX</h2>
+                                    <h2 class="white">R$ 3,00</h2>
                                 </li>
                                 <li class="item dinner breakfast mix_all" style="display: inline-block;  opacity: 1;"><img src="images/food_icon01.jpg" alt="Food">
-                                    <h2 class="white">R$X,XX</h2>
+                                    <h2 class="white">R$ 3,00</h2>
                                 </li>
                                 <li class="item special mix_all" style="display: inline-block;  opacity: 1;"><img src="images/food_icon01.jpg" alt="Food">
-                                    <h2 class="white">R$X,XX</h2>
+                                    <h2 class="white">R$ 3,00</h2>
                                 </li>
                                 <li class="item dinner mix_all" style="display: inline-block;  opacity: 1;"><img src="images/food_icon01.jpg" alt="Food">
-                                    <h2 class="white">R$X,XX</h2>
+                                    <h2 class="white">R$ 3,00</h2>
                                 </li>
                                 <li class="item special mix_all" style="display: inline-block;  opacity: 1;"><img src="images/food_icon01.jpg" alt="Food">
-                                    <h2 class="white">R$X,XX</h2>
+                                    <h2 class="white">R$ 3,00</h2>
                                 </li>
                                 <li class="item desert mix_all" style="display: inline-block;  opacity: 1;"><img src="images/food_icon01.jpg" alt="Food">
-                                    <h2 class="white">R$X,XX</h2>
+                                    <h2 class="white">R$ 3,00</h2>
                                 </li>
                                 <li class="item desert breakfast mix_all" style="display: inline-block;  opacity: 1;"><img src="images/food_icon01.jpg" alt="Food">
-                                    <h2 class="white">R$X,XX</h2>
+                                    <h2 class="white">R$ 3,00</h2>
                                 </li>
                             </ul><!-- @end #portfolio -->
                         </div><!-- @end #w -->
@@ -252,13 +251,13 @@
 
         <section id="bread" class=" description_content">
             <div  class="bread background_content">
-                <h1 class="shadow"><span>Menu</span> do café da manhã.</h1>
+                <h1 class="shadow"><span>Menus</span> para o café da manhã, almoço e jantar.</h1>
             </div>
             <div class="text-content container">
                 <div class="col-md-6">
-                    <h1>Lanches para manhã</h1>
+                    <h1>Lanches para todas as horas do dia</h1>
                     <div class="icon-bread fa-2x"></div>
-                    <p class="desc-text">Bla bla bla.</p>
+                    <p class="desc-text">Muitas opções de lanches que você pode encontrar, desde o início da manhã até o final da noite.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="images/bread1.jpg" width="260" alt="Bread">
@@ -327,7 +326,7 @@
 
         <section  id="reservation"  class="description_content">
             <div class="featured background_content">
-                <h1 class="shadow">BLA BLA </h1>
+                <h1 class="shadow">Deixe sua Sugestão!</h1>
             </div>
             <div class="text-content container">
                 <div class="inner contact">
@@ -358,7 +357,7 @@
 
                                             <div class="col-xs-6 ">
                                                 <!-- Send Button -->
-                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reserve</button>
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Enviar opiniões</button>
                                             </div>
 
                                         </div>
@@ -367,12 +366,12 @@
                                     <div class="col-lg-4 col-md-6 col-xs-12">
                                         <!-- Message -->
                                         <div class="right-text">
-                                            <h2>Horas</h2><hr>
-                                            <p>BLA</p>
-                                            <p>BLA</p>
-                                            <p>BLA</p>
-                                            <p>BLA</p>
-                                            <p>BLA</p>
+                                            <h2>Principais Dicas dos clientes</h2><hr>
+                                            <p>1. Criem um suco de frutas da estação.</p>
+                                            <p>2. Senti faltar de um combo "lanche e suco" natural.</p>
+                                            <p>3. Se caprichar, eu vou voltar.</p>
+                                            <p>4. Demorou a sair, mais estava gostoso.</p>
+                                            <p>5. Esperimentei, gostei, mas pode melhorar.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -400,7 +399,7 @@
                 </div>
                 <div class="col-md-4">
                     <span class="social_heading">Contate-nos</span>
-                    <span class="social_info"><a class="color_animation">teste@teste.com</a></span>
+                    <span class="social_info"><a class="color_animation">alunos@unbsnacks.com</a></span>
                 </div>
             </div>
         </section>
