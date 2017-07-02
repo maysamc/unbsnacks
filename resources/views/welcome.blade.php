@@ -241,7 +241,7 @@
                 <div class="col-md-6 col-md-offset-1">
                     <h1>Cerveja?</h1>
                     <div class="icon-beer fa-2x"></div>
-                    <p class="desc-text">Próximo à universidade tempos apenas um local onde vende-se cerveja. Chama-se <b>Colina</b>, uma banca de revista que também vende algumas guloseimas.</p>
+                    <p class="desc-text">Próximo à universidade tempos apenas um local onde vende-se cerveja. Chama-se <b>Colina</b>, uma banca de revista que também vende alguns salgadinhos.</p>
                 </div>
             </div>
         </section>
