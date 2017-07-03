@@ -337,7 +337,7 @@
                     <!-- Form Area -->
                     <div class="contact-form">
                         <!-- Form -->
-                        <form id="contact-us" method="post" action="reserve.php">
+                        <form id="contact-us" method="post" action="contact.php">
                             <!-- Left Inputs -->
                             <div class="container">
                                 <div class="row">

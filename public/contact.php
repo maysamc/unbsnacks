@@ -9,7 +9,7 @@
   $comment = $_REQUEST['message'];
   
   //send email
-  mail($admin_email, "$subject", $comment, "De:" . $email);
+  mail($email, "$subject", $comment, "De:" . $admin_email);
   
   //Email response
   echo "Obrigado!";
