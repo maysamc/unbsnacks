@@ -157,7 +157,8 @@
                 <div class="col-md-6">
                     <h1>Sobre</h1>
                     <div class="fa fa-cutlery fa-2x"></div>
-                    <p class="desc-text">Somos parte de um trabalho universitário de Engenharia de Software. Este projeto tem como intuito expor as lanchonetes da Universidade de Brasília, bem como suas notas e preços que serão dadas por vocês, alunos, professores, etc.</p>
+                    <p class="desc-text">Somos parte de um trabalho universitário da disciplina Engenharia de Software, ministrada na Universidade de Brasília. Este projeto tem o intuito de disseminar os cardápios das lanchonetes do Campus, além de divulgar a qualidade dos estabelecimentos, alimentos e serviço oferecido por elas.
+       Se cadastre no site e venha fazer parte deste projeto também.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="img-section">
@@ -240,7 +241,7 @@
                 <div class="col-md-6 col-md-offset-1">
                     <h1>Cerveja?</h1>
                     <div class="icon-beer fa-2x"></div>
-                    <p class="desc-text">Próximo à universidade tempos apenas um local onde vende-se cerveja. Chama-se <b>Colina</b>, uma banca de revista que também vende alguns salgadinhos.</p>
+                    <p class="desc-text">Próximo à Universidade contamos com apenas um local onde são vendidas bebidas alcoólicas. Chama-se<b>Colina</b>, uma banca onde é possível encontrar desde salgadinhos e jornais, à bebidas alcoólicas e doces.</p>
                 </div>
             </div>
         </section>
