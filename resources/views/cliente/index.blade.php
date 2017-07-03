@@ -1,10 +1,6 @@
 @extends('layouts.app')
 
-<link href="{{ asset('../css/cardapio.css') }}" rel="stylesheet">
-<script src="{{ asset('../js/cardapio.js') }}"></script>
-
 @section('content')
-
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -23,31 +19,7 @@
                  </div>   
 
                 <div class="panel-body">
-					<div class="container">
-					  <div class="group-header">
-						<span>Média</span>
-						<span>Grande</span>
-					  </div>
-					  
-					  <h3>
-						<span>Pizza de Mussarela com catupiry</span>
-						<span>20</span>
-						<span>27</span>
-					  </h3>
-					  <p>Descrição pizza.</p>
-					  <h3>
-						<span>Bolo de chocolate com cobertura/span>
-						<span>3</span>
-						<span>6</span>
-					  </h3>
-					  <p>Bolo de chocolate com escolhas de cobertura entre: morango, chocolate e doce de leite.</p>
-					  <h3>
-						<span>tal</span>
-						<span>25</span>
-						<span>56</span>
-					  </h3>
-					  <p>taltal</p>
-					</div>
+                <img src="img/lanche3.jpg" width="700" alt="Imagem do UnBSnacks." />
 
                 </div>
             </div>

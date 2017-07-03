@@ -88,5 +88,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+	<script src="{{ asset('js/cardapio.js') }}"></script>
 </body>
 </html>
