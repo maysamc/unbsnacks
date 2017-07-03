@@ -241,7 +241,7 @@
                 <div class="col-md-6 col-md-offset-1">
                     <h1>Cerveja?</h1>
                     <div class="icon-beer fa-2x"></div>
-                    <p class="desc-text">Próximo à Universidade contamos com apenas um local onde são vendidas bebidas alcoólicas. Chama-se<b>Colina</b>, uma banca onde é possível encontrar desde salgadinhos e jornais, à bebidas alcoólicas e doces.</p>
+                    <p class="desc-text">Próximo à Universidade contamos com apenas um local onde são vendidas bebidas alcoólicas. Chama-se <b>Colina</b>, uma banca onde é possível encontrar desde salgadinhos e jornais, à bebidas alcoólicas e doces.</p>
                 </div>
             </div>
         </section>
