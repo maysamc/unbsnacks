@@ -455,16 +455,16 @@
                                     <!-- Left Inputs -->
                                     <div class="col-md-6 ">
                                         <!-- Name -->
-                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Nome" />
                                         <!-- Email -->
                                         <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
                                         <!-- Subject -->
-                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Assunto" />
                                     </div><!-- End Left Inputs -->
                                     <!-- Right Inputs -->
                                     <div class="col-md-6">
                                         <!-- Message -->
-                                        <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                                        <textarea name="message" id="message" class="form textarea"  placeholder="Mensagem"></textarea>
                                     </div><!-- End Right Inputs -->
                                     <!-- Bottom Submit -->
                                     <div class="relative fullwidth col-xs-12">
