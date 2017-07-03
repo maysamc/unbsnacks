@@ -31,10 +31,10 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" >UnBSnacks
-					<img src="../images/unbsnackslogo.png" width="53" height="45">
+                    <a class="navbar-brand" >UnBSnacks</a>
+			<img src="../images/unbsnackslogo.png" width="53" height="45">
                         <!--{{ config('app.name', 'Laravel') }}href="{{ url('/') }}-->
-                    </a>
+                    
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">

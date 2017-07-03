@@ -157,7 +157,8 @@
                 <div class="col-md-6">
                     <h1>Sobre</h1>
                     <div class="fa fa-cutlery fa-2x"></div>
-                    <p class="desc-text">Somos parte de um trabalho universitário de Engenharia de Software. Este projeto tem como intuito expor as lanchonetes da Universidade de Brasília, bem como suas notas e preços que serão dadas por vocês, alunos, professores, etc.</p>
+                    <p class="desc-text">Somos parte de um trabalho universitário da disciplina Engenharia de Software, ministrada na Universidade de Brasília. Este projeto tem o intuito de disseminar os cardápios das lanchonetes do Campus, além de divulgar a qualidade dos estabelecimentos, alimentos e serviço oferecido por elas.
+       Se cadastre no site e venha fazer parte deste projeto também.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="img-section">
@@ -240,7 +241,7 @@
                 <div class="col-md-6 col-md-offset-1">
                     <h1>Cerveja?</h1>
                     <div class="icon-beer fa-2x"></div>
-                    <p class="desc-text">Próximo à universidade tempos apenas um local onde vende-se cerveja. Chama-se <b>Colina</b>, uma banca de revista que também vende alguns salgadinhos.</p>
+                    <p class="desc-text">Próximo à Universidade contamos com apenas um local onde são vendidas bebidas alcoólicas. Chama-se<b>Colina</b>, uma banca onde é possível encontrar desde salgadinhos e jornais, à bebidas alcoólicas e doces.</p>
                 </div>
             </div>
         </section>
@@ -257,7 +258,10 @@
                 <div class="col-md-6">
                     <h1>Lanches para todas as horas do dia</h1>
                     <div class="icon-bread fa-2x"></div>
-                    <p class="desc-text">Muitas opções de lanches que você pode encontrar, desde o início da manhã até o final da noite.</p>
+                    <p class="desc-text">- Café da manhã: que tal um pão na chapa de queijo e presunto e um pingado para completar?
+- Almoço: quer comer algo diferente? Corre lá no amarelinho e dê uma chance para o Estrogonofe com Batata Palha que está uma delícia. 
+- Lanche da tarde: estou sentindo o cheirinho do pão de queijo quentinho saindo das lanchonetes. Hoje vamos de pão de queijo com guaraná?
+- Jantar: ouvi dizer que o cardápio do R.U. hoje está excepcional, que tal tentar?</p>
                 </div>
                 <div class="col-md-6">
                     <img src="images/bread1.jpg" width="260" alt="Bread">
@@ -368,10 +372,10 @@
                                         <div class="right-text">
                                             <h2>Principais Dicas dos clientes</h2><hr>
                                             <p>1. Criem um suco de frutas da estação.</p>
-                                            <p>2. Senti faltar de um combo "lanche e suco" natural.</p>
+                                            <p>2. Senti faltar de um combo "lanche e suco natural".</p>
                                             <p>3. Se caprichar, eu vou voltar.</p>
-                                            <p>4. Demorou a sair, mais estava gostoso.</p>
-                                            <p>5. Esperimentei, gostei, mas pode melhorar.</p>
+                                            <p>4. Demorou a sair, mas estava gostoso.</p>
+                                            <p>5. Experimentei e gostei, mas pode melhorar.</p>
                                         </div>
                                     </div>
                                 </div>
