@@ -1,11 +1,9 @@
 @extends('layouts.app')
 
-
+<link href="{{ asset('../css/cardapio.css') }}" rel="stylesheet">
+<script src="{{ asset('../js/cardapio.js') }}"></script>
 
 @section('content')
-
-<link href="{{ asset('css/cardapio.css') }}" rel="stylesheet">
-<script src="{{ asset('js/cardapio.js') }}"></script>
 
 <div class="container">
     <div class="row">
