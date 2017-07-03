@@ -19,7 +19,6 @@
                  </div>   
 
                 <div class="panel-body">
-					<div id="top" class="starter_container bg">
 						<div class="follow_container">
 							<div class="col-md-6 col-md-offset-3">
 								<h2 class="top-title"> UnBSnacks </h2>
@@ -27,7 +26,6 @@
 								<hr>
 							</div>
 						</div>
-					</div>
                 </div>
             </div>
         </div>
