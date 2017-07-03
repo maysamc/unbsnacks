@@ -8,7 +8,7 @@
                 <div class="panel-heading"><p>Sistema UnBSnacks - Área do usuário</p>
                 <ul>
                 <p><a href="admin/{{Auth::user()->id}}/alteracliente" class="btn btn-primary">Alterar usuário</a>
-                    <a href="{{ url('admin/')}}" class="btn btn-primary">Remover usuário (pendente)</a>
+                    <a href="{{ url('admin/')}}" class="btn btn-primary">Remover usuário</a>
                     <a href="{{ url('admin/')}}" class="btn btn-primary">Pag Inicial do usuário</a>
                  
                 
