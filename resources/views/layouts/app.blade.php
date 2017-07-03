@@ -33,8 +33,8 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" >UnBSnacks</a>
-			<img src="../images/unbsnackslogo.png" width="53" height="45">
+                    <a class="navbar-brand" href="{{ url('/admin') }}" >UnBSnacks</a>
+			<img src="../images/unbsnackslogo.png" href="{{ url('/') }}" width="53" height="45">
                         <!--{{ config('app.name', 'Laravel') }}href="{{ url('/') }}-->
                     
                 </div>
