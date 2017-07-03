@@ -1,8 +1,8 @@
 
-
+	
 	$(document).ready(function () {
 		$(document).on("scroll", onScroll);
- 
+		$('h3 span:first-child').after("<span class=\"dots\"> </span>");
 		$('a[href^="#"]').on('click', function (e) {
 			e.preventDefault();
 			$(document).off("scroll");
