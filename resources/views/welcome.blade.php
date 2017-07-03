@@ -272,7 +272,7 @@
 
 
 
-        <!-- ============ Featured Dish  ============= -->
+        <!-- ============ RU  ============= -->
 
         <section id="featuredru" class="description_content">
             <div  class="featuredru background_content">
@@ -343,27 +343,6 @@
                                 <div class="row">
                                     <div class="col-lg-8 col-md-6 col-xs-12">
                                         <div class="row">
-                                            <!--<div class="col-lg-6 col-md-6 col-xs-6">
-                                                <!-- Name 
-                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="Primeiro Nome" />
-                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Último Nome" />
-                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="Estado" />
-                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-xs-6">
-                                                <!-- Name 
-                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Telefone" />
-                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Guest Number" />
-                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
-                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Assunto" />
-                                            </div>
-
-                                            <div class="col-xs-6 ">
-                                                <!-- Send Button 
-                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Enviar opiniões</button>
-                                            </div>
-											-->
 											<div class="inner contact">
 											<!-- Form Area -->
 												<div class="contact-form">
