@@ -32,7 +32,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" >UnBSnacks
-					<img src="images/unbsnackslogo.png" width="53" height="45">
+					<img src="../images/unbsnackslogo.png" width="53" height="45">
                         <!--{{ config('app.name', 'Laravel') }}href="{{ url('/') }}-->
                     </a>
                 </div>
