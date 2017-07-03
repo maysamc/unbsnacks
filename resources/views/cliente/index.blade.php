@@ -19,7 +19,7 @@
                  </div>   
 
                 <div class="panel-body">
-                <img src="img/lanche3.jpg" width="700" alt="Imagem do UnBSnacks." />
+                <img src="img/cardapio1.jpg" width="700" alt="Imagem do UnBSnacks." />
 
                 </div>
             </div>
