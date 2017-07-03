@@ -258,10 +258,10 @@
                 <div class="col-md-6">
                     <h1>Lanches para todas as horas do dia</h1>
                     <div class="icon-bread fa-2x"></div>
-                    <p class="desc-text">- Café da manhã: que tal um pão na chapa de queijo e presunto e um pingado para completar?
-- Almoço: quer comer algo diferente? Corre lá no amarelinho e dê uma chance para o Estrogonofe com Batata Palha que está uma delícia. 
-- Lanche da tarde: estou sentindo o cheirinho do pão de queijo quentinho saindo das lanchonetes. Hoje vamos de pão de queijo com guaraná?
-- Jantar: ouvi dizer que o cardápio do R.U. hoje está excepcional, que tal tentar?</p>
+                    <p class="desc-text">- Café da manhã: que tal um pão na chapa, com queijo e presunto e um pingado para completar?</p>
+<p class="desc-text">- Almoço: quer comer algo diferente? Corre lá no amarelinho e dê uma chance para o Estrogonofe com Batata Palha que está uma delícia.</p> 
+<p class="desc-text">- Lanche da tarde: estou sentindo o cheirinho do pão de queijo quentinho saindo das lanchonetes. Hoje vamos de pão de queijo com guaraná?</p>
+<p class="desc-text">- Jantar: ouvi dizer que o cardápio do R.U. hoje está excepcional, que tal tentar?</p>
                 </div>
                 <div class="col-md-6">
                     <img src="images/bread1.jpg" width="260" alt="Bread">
