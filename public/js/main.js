@@ -1,8 +1,7 @@
 
-
+	
 	$(document).ready(function () {
 		$(document).on("scroll", onScroll);
- 
 		$('a[href^="#"]').on('click', function (e) {
 			e.preventDefault();
 			$(document).off("scroll");

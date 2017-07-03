@@ -45,7 +45,29 @@
                             <li><a class="color_animation" href="#reservation">Opine</a></li>
                             <li><a class="color_animation" href="#contact">Contato</a></li>
                             <li><a class="color_animation" href="#story">Sobre</a></li>
-                            <li><a class="color_animation" href="{{ url('admin/login') }}">Cadastro/Acessar</a></li>
+							@if (Auth::guest())
+								<li><a class="color_animation" href="{{ url('admin/login') }}">Cadastro/Acessar</a></li>
+							@else
+								<li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                            Logout
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+							@endif
                             <!--
                             <?php
                             session_start();
@@ -272,7 +294,7 @@
 
 
 
-        <!-- ============ Featured Dish  ============= -->
+        <!-- ============ RU  ============= -->
 
         <section id="featuredru" class="description_content">
             <div  class="featuredru background_content">
@@ -337,33 +359,42 @@
                     <!-- Form Area -->
                     <div class="contact-form">
                         <!-- Form -->
-                        <form id="contact-us" method="post" action="reserve.php">
+                        <form id="contact-us" method="post" action="contact.php">
                             <!-- Left Inputs -->
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-8 col-md-6 col-xs-12">
                                         <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-xs-6">
-                                                <!-- Name -->
-                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
-                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
-                                                <input type="text" name="state" id="state" required="required" class="form" placeholder="State" />
-                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-xs-6">
-                                                <!-- Name -->
-                                                <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Phone" />
-                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Guest Number" />
-                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
-                                                <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                                            </div>
-
-                                            <div class="col-xs-6 ">
-                                                <!-- Send Button -->
-                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Enviar opiniões</button>
-                                            </div>
-
+											<div class="inner contact">
+											<!-- Form Area -->
+												<div class="contact-form">
+													<!-- Form -->
+													<form id="contact-us" method="post" action="contact.php">
+														<!-- Left Inputs -->
+														<div class="col-md-6 ">
+															<!-- Name -->
+															<input type="text" name="name" id="name" required="required" class="form" placeholder="Nome" />
+															<!-- Email -->
+															<input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+															<!-- Subject -->
+															<input type="text" name="subject" id="subject" required="required" class="form" placeholder="Assunto" />
+														</div><!-- End Left Inputs -->
+														<!-- Right Inputs -->
+														<div class="col-md-6">
+															<!-- Message -->
+															<textarea name="message" id="message" class="form textarea"  placeholder="Mensagem"></textarea>
+														</div><!-- End Right Inputs -->
+														<!-- Bottom Submit -->
+														<div class="relative fullwidth col-xs-12">
+															<!-- Send Button -->
+															<button type="submit" id="submit" name="submit" class="form-btn">Enviar Mensagem</button>
+														</div><!-- End Bottom Submit -->
+														<!-- Clear -->
+														<div class="clear"></div>
+													</form>
+												</div><!-- End Contact Form Area -->
+												
+											</div>
                                         </div>
                                     </div>
 
@@ -425,16 +456,16 @@
                                     <!-- Left Inputs -->
                                     <div class="col-md-6 ">
                                         <!-- Name -->
-                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                                        <input type="text" name="name" id="name" required="required" class="form" placeholder="Nome" />
                                         <!-- Email -->
                                         <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
                                         <!-- Subject -->
-                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                        <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Assunto" />
                                     </div><!-- End Left Inputs -->
                                     <!-- Right Inputs -->
                                     <div class="col-md-6">
                                         <!-- Message -->
-                                        <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                                        <textarea name="message" id="message" class="form textarea"  placeholder="Mensagem"></textarea>
                                     </div><!-- End Right Inputs -->
                                     <!-- Bottom Submit -->
                                     <div class="relative fullwidth col-xs-12">

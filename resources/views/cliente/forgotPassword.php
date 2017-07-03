@@ -1,6 +1,7 @@
 <?php
     if (isset($_POST["forgotPass"])){
-        $connection = new pgsql("localhost", "root", "", "usersSystem");
+        $connection = pg_conn
+            new psql("localhost", "root", "", "usersSystem");
 
         $email = $connection->$_POST["email"];
 

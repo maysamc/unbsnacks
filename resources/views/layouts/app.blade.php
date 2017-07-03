@@ -15,6 +15,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+	<link href="{{ asset('css/cardapio.css') }}" rel="stylesheet">
+	<script src="{{ asset('js/cardapio.js') }}"></script>
 </head>
 <body>
     <div id="app">
@@ -31,8 +33,8 @@
                     </button>
 
                     <!-- Branding Image -->
-                    <a class="navbar-brand" >UnBSnacks</a>
-			<img src="../images/unbsnackslogo.png" width="53" height="45">
+                    <a class="navbar-brand" href="{{ url('/admin') }}" >UnBSnacks</a>
+			<img src="../images/unbsnackslogo.png" href="{{ url('/') }}" width="53" height="45">
                         <!--{{ config('app.name', 'Laravel') }}href="{{ url('/') }}-->
                     
                 </div>
@@ -86,5 +88,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+	<script src="{{ asset('js/cardapio.js') }}"></script>
 </body>
 </html>
