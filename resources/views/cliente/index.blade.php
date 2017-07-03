@@ -23,8 +23,8 @@
                  </div>   
 
                 <div class="panel-body">
-					<div class="container">
-					  <div class="group-header">
+					<div class="containermenu">
+					  <div class="group-headermenu">
 						<span>Média</span>
 						<span>Grande</span>
 					  </div>
@@ -36,7 +36,7 @@
 					  </h3>
 					  <p>Descrição pizza.</p>
 					  <h3>
-						<span>Bolo de chocolate com cobertura/span>
+						<span>Bolo de chocolate com cobertura</span>
 						<span>3</span>
 						<span>6</span>
 					  </h3>

@@ -15,7 +15,7 @@
 }
 
 // a little scaffolding...
-.container {
+.containermenu {
   @include clearfix;
   width: 50%;
   margin: 1em auto;
@@ -29,7 +29,7 @@
   }
 }
 
-.group-header {
+.group-headermenu {
   float: right;
   font-weight: 700;
   width: 20%;
