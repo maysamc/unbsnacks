@@ -15,6 +15,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+	<link href="{{ asset('css/cardapio.css') }}" rel="stylesheet">
+	<script src="{{ asset('js/cardapio.js') }}"></script>
 </head>
 <body>
     <div id="app">
